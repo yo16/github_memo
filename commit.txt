@@ -1,0 +1,11 @@
+git commit -m "コメント"
+
+下記のコメントが出る。
+[master (root-commit) d3cf2e0] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+
+
+疑問点
+オプションで、Descriptionも指定できるようだ。
