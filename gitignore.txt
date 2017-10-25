@@ -1,0 +1,29 @@
+.gitignore とは？
+Git の管理に含めないファイルを指定するためのファイル。
+
+
+参考
+https://qiita.com/inabe49/items/16ee3d9d1ce68daa9fff
+
+
+Windowsでのファイルの作り方
+「.ignore.」を作る
+
+
+# から始まる行はコメント
+
+
+# *は任意文字列
+# 例：.exeファイルを含めない
+*.exe
+
+# 特定のフォルダを無視
+# 例：__pycache__フォルダ以下を含めない
+__pycache__/
+
+# 例外
+!/ldm/product.exe
+
+# すべてのフォルダ内の特定拡張子
+**/*.log
+
